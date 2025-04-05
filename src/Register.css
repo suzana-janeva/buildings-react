@@ -1,4 +1,4 @@
-.register {
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,13 +11,13 @@
     background-color: #fff;
   }
   
-  .register h1 {
+  .form h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
   }
   
-  .register input {
+  .form input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -26,12 +26,12 @@
     font-size: 1rem;
   }
   
-  .register input:focus {
+  .form input:focus {
     outline: none;
     border-color: #007bff;
   }
   
-  .register button {
+  .form button {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -42,11 +42,12 @@
     cursor: pointer;
   }
   
-  .register button:disabled {
+  .form button:disabled {
     background-color: #ccc;
   }
   
-  .register p {
+  .form p {
     color: red;
     font-size: 0.9rem;
   }
+  
